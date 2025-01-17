@@ -3,8 +3,8 @@
 
 ---
 
-![img.png](IMG/img.png)
-![img_1.png](IMG/img_1.png)
+![img.png](src/IMG/img.png)
+![img_1.png](src/IMG/img_1.png)
 
     a. Si, una clase hija hereda tantos atributos como metodos del padre.
     b. La palabra reservada es "super()"
@@ -14,7 +14,7 @@
 
 ---
 
-![img_2.png](IMG/img_2.png)
+![img_2.png](src/IMG/img_2.png)
 
     a. La clase A es una MADRE de la clase C.
     b. La clase B es una HERMANA de la clase C.
@@ -24,7 +24,7 @@
 
 ---
 
-![img_3.png](IMG/img_3.png)
+![img_3.png](src/IMG/img_3.png)
 
     Sobrecarga: La sobrecarga de metodos es el crear un mismo constructor con mismos    
     metodos pero añadiendo distintos luego.
@@ -35,7 +35,7 @@
 ---
 
 ### 4.
-![img_4.png](IMG/img_4.png)
+![img_4.png](src/IMG/img_4.png)
 
     d. No muestra los atributos de director y valoracion del objeto ob2 puesto a que se
     esta haciendo llamado del ToString Video (es decir, el padre de Pelicula) por tanto, 
