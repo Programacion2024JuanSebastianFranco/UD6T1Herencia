@@ -41,4 +41,4 @@
     esta haciendo llamado del ToString Video (es decir, el padre de Pelicula) por tanto, 
     este no mostrara los atributos anteriormente mencionados de Pelicula.
     
-    e. Habria que 
+    e. Habria que
