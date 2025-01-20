@@ -36,9 +36,24 @@
 
 ### 4.
 ![img_4.png](src/IMG/img_4.png)
+![img_6.png](src/IMG/img_6.png)
 
     d. No muestra los atributos de director y valoracion del objeto ob2 puesto a que se
-    esta haciendo llamado del ToString Video (es decir, el padre de Pelicula) por tanto, 
-    este no mostrara los atributos anteriormente mencionados de Pelicula.
+    esta haciendo llamado del ToString Tarea1.Video (es decir, el padre de Tarea1.Pelicula) por tanto, 
+    este no mostrara los atributos anteriormente mencionados de Tarea1.Pelicula.
     
-    e. Habria que
+    e. Habria que sobreescribir el ToString de Video.
+
+    g. 1. Artista, 2. Categoria
+
+    h. añadiria precio al padre Video.
+
+---
+
+![img_5.png](src/IMG/img_5.png)
+
+    a. 
+
+
+
+    

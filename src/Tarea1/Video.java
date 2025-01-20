@@ -1,3 +1,5 @@
+package Tarea1;
+
 public class Video {
     private String titulo;
     private int minutos;
@@ -25,7 +27,7 @@ public class Video {
 
     @Override
     public String toString() {
-        return "Video{" +
+        return "Tarea1.Video{" +
                 "titulo='" + titulo + '\'' +
                 ", minutos=" + minutos +
                 '}';

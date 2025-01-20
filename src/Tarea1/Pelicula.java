@@ -1,3 +1,5 @@
+package Tarea1;
+
 public class Pelicula extends Video{
 
     private String director;
@@ -6,6 +8,6 @@ public class Pelicula extends Video{
     public Pelicula(String titulo, int minutos, String director, int valoracion) {
         super(titulo, minutos);
         this.director = director;
-        Valoracion = valoracion;
+        this.Valoracion = valoracion;
     }
 }
