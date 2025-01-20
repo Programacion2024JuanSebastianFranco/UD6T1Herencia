@@ -44,7 +44,7 @@
     
     e. Habria que sobreescribir el ToString de Video.
 
-    g. 1. Artista, 2. Categoria
+    g. 1. Artista, 2. Categoria. 3. y 4.
 
     h. añadiria precio al padre Video.
 
