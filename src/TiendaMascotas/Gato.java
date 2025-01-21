@@ -7,10 +7,18 @@ public class Gato extends Mascota{
     private gatoConPelo gatoConPelo;
     private gatoSinPelo gatoSinPelo;
 
-    public Gato(String nombre, String edad, String color, double alturaSalto, double longitudSalto) {
+    public Gato(String nombre, int edad, String color, double alturaSalto, double longitudSalto, TiendaMascotas.gatoConPelo gatoConPelo) {
         super(nombre, edad, color);
         this.alturaSalto = alturaSalto;
         this.longitudSalto = longitudSalto;
+        this.gatoConPelo = gatoConPelo;
+    }
+
+    public Gato(String nombre, int edad, String color, TiendaMascotas.gatoSinPelo gatoSinPelo, double longitudSalto, double alturaSalto) {
+        super(nombre, edad, color);
+        this.gatoSinPelo = gatoSinPelo;
+        this.longitudSalto = longitudSalto;
+        this.alturaSalto = alturaSalto;
     }
 
     public double getAlturaSalto() {
@@ -33,4 +41,13 @@ public class Gato extends Mascota{
         System.out.println("Los gatos maullan y ronronean");
     }
 
+    @Override
+    public String toString() {
+        return "Gato{" +
+                "alturaSalto=" + alturaSalto +
+                ", longitudSalto=" + longitudSalto +
+                ", gatoConPelo=" + gatoConPelo +
+                ", gatoSinPelo=" + gatoSinPelo +
+                '}';
+    }
 }
